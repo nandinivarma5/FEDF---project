@@ -1,0 +1,144 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f7;
+}
+
+/* Main Container */
+.container {
+  width: 60%;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Form Card */
+form {
+  background: #f9fbfd;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  height: 90px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+/* Star Rating */
+span {
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+span:hover {
+  transform: scale(1.2);
+}
+
+/* Reviews Section */
+h2 {
+  margin-top: 30px;
+  color: #34495e;
+}
+
+/* Review Card */
+.review {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.review:hover {
+  transform: translateY(-3px);
+}
+
+/* Rating */
+.review p:first-child {
+  color: #f1c40f;
+  font-size: 18px;
+}
+
+/* Review Text */
+.review p:last-child {
+  color: #333;
+  font-size: 14px;
+}
+
+/* Empty Text */
+p {
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.preview {
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.review img {
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.filters {
+  margin-top: 20px;
+}
+
+.filters button {
+  margin-right: 10px;
+}
